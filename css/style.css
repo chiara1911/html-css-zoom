@@ -26,5 +26,10 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 5px;
+   
+    /* padding: 5px; */
+}
+
+.pinco-img{
+    width: calc(100% / 7);
 }
