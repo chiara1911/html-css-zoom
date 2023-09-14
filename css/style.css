@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-buttom-bottom: #4a4a4a;
+	--color-footer: #222222;
+	--color-bg-body: #000000;
+	--color-color-icon: #ffffff;
+	--color-btn-share: #4bc800;
+}
