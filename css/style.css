@@ -21,30 +21,46 @@ body{
 
 .d-flex{
     display: flex;
+    
+}
+.justify-content{
+    justify-content: flex-start;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
 
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-   
-    /* padding: 5px; */
-}
 header{
     height: 50px;
 }
 main{
     height: calc(100vh - 50px - 50px);
+    width: 100vw;
+    padding: 20px;   
+    overflow-y: auto; 
 }
+
 footer{
     height: 100px;
 }
-img{
-    height: 100px;
-    width: 100px;
-    max-width: 100%;
+.user{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .pinco-img{
-    width: calc(100vh / 7);
-    height: calc(100vh / 7);
+    width: calc(100vw / 7);
+    height: calc(100vh / 5);
     margin:  10px;
+    position: relative;
+    
+}
+/* main */
+
+.card-zoom{
+    width: 90vw;
+    
+    position: absolute;
+
 }
