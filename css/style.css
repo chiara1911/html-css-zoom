@@ -11,3 +11,20 @@
 	--color-color-icon: #ffffff;
 	--color-btn-share: #4bc800;
 }
+body{
+    width: 100vw;
+    background-color: var(--color-btn-share);
+}
+.debug{
+    border: solid 1px black;
+}
+
+.d-flex{
+    display: flex;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
