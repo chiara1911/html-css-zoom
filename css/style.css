@@ -21,6 +21,7 @@ body{
 
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .justify-content{
@@ -28,21 +29,19 @@ body{
 }
 img{
     width: 100%;
-    object-fit: contain;
 }
 
 header{
-    height: 50px;
+    height: 30px;
 }
 main{
-    height: calc(100vh - 50px - 50px);
-    width: 100vw;
-    padding: 20px;   
+    height: calc(100vh - 30px - 50px);
+    width: 100vw;   
     overflow-y: auto; 
 }
 
 footer{
-    height: 100px;
+    height: 50px;
 }
 .user{
     width: 100%;
@@ -50,17 +49,19 @@ footer{
     object-fit: cover;
 }
 .pinco-img{
-    width: calc(100vw / 7);
-    height: calc(100vh / 5);
-    margin:  10px;
+    width: calc(100vw / 7 - 5px);
+    height: calc(100vh / 7 - 5px);
+    /* margin:  3px; */
     position: relative;
+   
     
 }
 /* main */
 
 .card-zoom{
-    width: 90vw;
-    
-    position: absolute;
+    width: 100%;
+    heigh: 100%
+    margin: 10px;
+   position: absolute;
 
 }
