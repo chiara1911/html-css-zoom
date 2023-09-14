@@ -29,7 +29,22 @@ body{
    
     /* padding: 5px; */
 }
-
+header{
+    height: 50px;
+}
+main{
+    height: calc(100vh - 50px - 50px);
+}
+footer{
+    height: 100px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+}
 .pinco-img{
-    width: calc(100% / 7);
+    width: calc(100vh / 7);
+    height: calc(100vh / 7);
+    margin:  10px;
 }
